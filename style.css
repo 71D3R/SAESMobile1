@@ -1,0 +1,295 @@
+body {
+  background-image: none;
+  background-color: white;
+}
+#mainnav, #header, #ctl00_mainCopy_Lbl_Generales, #subnav, #ctl00_mainCopy_freewayImage, #ctl00_mainCopy_Lbl_General, #ctl00_leftColumn_LoginUser_CaptchaRequiredValidator, #rightcolumn, #footer, #ctl00_mainmenun3, #breadcrumbs, .readmore {
+  display: none;
+}
+
+#ctl00_leftColumn_LogIn {
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: rgba(255, 255, 255, 0.95);
+}
+#ctl00_leftColumn_LogIn{
+  color: black;
+}
+#ctl00_leftColumn_LoginUser {
+  font-size: 3.5vmax;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#ctl00_leftColumn_LogIn input {
+  width: 95%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: .5em 1em;
+}
+#ctl00_leftColumn_LoginUser button {
+  white-space: nowrap;
+  margin: 0 0 0 1em;
+}
+.LBD_CaptchaImage {
+  right: 1%;
+  position: relative;
+}
+
+#wrapper {
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  padding-bottom: 0;
+  border: 0;
+  background-image: none;
+  background-color: white;
+}
+#contentwrapper {
+  margin-left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  position: relative;
+}
+
+#floatwrapper {
+  padding-top: 0px !important;
+  width: 100% !important;
+  height: 100% !important;
+  position: relative;
+}
+
+#centercolumn {
+  width: 100% !important;
+  height: 100% !important;
+  padding-top: 0;
+}
+#copy {
+  overflow-x: auto !important;
+  width: 100%;
+  height: 93%;
+}
+#copy .container {
+  border: none;
+  margin: 0;
+  height: 100% !important;
+}
+  #copy .container td {
+      text-align: left !important;
+  }
+#copy .container table {
+  width: 100% !important;
+}
+
+#copy .container table th{
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+#ctl00_mainCopy_Lbl_Nombre * {
+  background-color: white;
+}
+
+#copy .container #ctl00_mainCopy_Panel1 {
+      height: 100% !important;
+  }
+
+  #ctl00_mainCopy_Panel1 table {
+      width: 100% !important;
+  }
+
+#ctl00_mainCopy_GV_Calif table, 
+#ctl00_mainCopy_grvEstatus_alumno table,
+#ctl00_mainCopy_CREDITOSCARRERA table,
+#ctl00_mainCopy_alumno table, 
+#ctl00_mainCopy_MENSAJE table {
+  width: 100% !important;
+  border-collapse: collapse;
+}
+#ctl00_mainCopy_GV_Calif tr:nth-of-type(odd),
+#ctl00_mainCopy_grvEstatus_alumno tr:nth-of-type(odd),
+#ctl00_mainCopy_CREDITOSCARRERA tr:nth-of-type(odd),
+#ctl00_mainCopy_alumno tr:nth-of-type(odd) {
+  background: #eee;
+}
+#ctl00_mainCopy_GV_Calif th, 
+#ctl00_mainCopy_grvEstatus_alumno th,
+#ctl00_mainCopy_CREDITOSCARRERA th,
+#ctl00_mainCopy_alumno th {
+  background: #333;
+  color: white;
+  font-weight: bold;
+}
+#ctl00_mainCopy_GV_Calif td, th, 
+#ctl00_mainCopy_grvEstatus_alumno td, th,
+#ctl00_mainCopy_CREDITOSCARRERA td, th,
+#ctl00_mainCopy_alumno td,th {
+  padding: 6px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+#ctl00_mainCopy_GV_Calif table, thead, tbody, th, td, tr,
+#ctl00_mainCopy_grvEstatus_alumno table, thead, tbody, th, td, tr,
+#ctl00_mainCopy_CREDITOSCARRERA table, thead, tbody, th, td, tr,
+#ctl00_mainCopy_alumno table, thead, tbody, th, td, tr {
+  display: block !important;
+}
+
+#ctl00_mainCopy_GV_Calif tr 
+#ctl00_mainCopy_grvEstatus_alumno tr,
+#ctl00_mainCopy_CREDITOSCARRERA tr,
+#ctl00_mainCopy_alumno tr {
+  border: 1px solid #ccc;
+}
+
+#ctl00_mainCopy_GV_Calif td,
+#ctl00_mainCopy_grvEstatus_alumno td,
+#ctl00_mainCopy_CREDITOSCARRERA td,
+#ctl00_mainCopy_alumno td {
+  /* Behave  like a "row" */
+
+  font-size: 1.5vmax;
+  border: none;
+  border-bottom: 1px solid #eee;
+  position: relative;
+  padding-left: 50%;
+}
+#ctl00_mainCopy_GV_Calif td:before {
+  /* Now like a table header */
+
+  position: absolute;
+  /* Top/left values mimic padding */
+  font-weight: bold;
+  font-size: 2vmax;
+  top: 6px;
+  left: 6px;
+  width: 45%;
+  padding-right: 10px;
+  white-space: nowrap;
+}
+
+#ctl00_mainCopy_grvEstatus_alumno td:before,
+#ctl00_mainCopy_CREDITOSCARRERA td:before,
+#ctl00_mainCopy_alumno td:before {
+  font-weight: normal;
+  position: absolute;
+  font-size: 2vmax;
+  top: 6px;
+  bottom: 6px;
+  left: 6px;
+  height: auto;
+  width: 40%;
+  padding-right: 50%;
+}
+#copy #ctl00_mainCopy_GV_Calif td:nth-of-type(1):before {
+  content: "Grupo";
+}
+#copy #ctl00_mainCopy_GV_Calif td:nth-of-type(2):before {
+  content: "Materia";
+}
+#copy #ctl00_mainCopy_GV_Calif td:nth-of-type(3):before {
+  content: "1er Parcial";
+}
+#copy #ctl00_mainCopy_GV_Calif td:nth-of-type(4):before {
+  content: "2o Parcial";
+}
+#copy #ctl00_mainCopy_GV_Calif td:nth-of-type(5):before {
+  content: "3er Parcial";
+}
+#copy #ctl00_mainCopy_GV_Calif td:nth-of-type(6):before {
+  content: "Ext";
+}
+#copy #ctl00_mainCopy_GV_Calif td:nth-of-type(7):before {
+  content: "Final";
+}
+  #copy #ctl00_mainCopy_grvEstatus_alumno td:nth-of-type(1):before {
+     content: "Promedio";
+  }
+  #copy #ctl00_mainCopy_grvEstatus_alumno td:nth-of-type(2):before {
+     content: "Materias Reprobadas";
+  }
+  #copy #ctl00_mainCopy_grvEstatus_alumno td:nth-of-type(3):before {
+     content: "Fecha de Inscripción";
+  }
+  #copy #ctl00_mainCopy_grvEstatus_alumno td:nth-of-type(4):before {
+     content: "Fecha de Caducidad";
+  }
+
+  #copy #ctl00_mainCopy_CREDITOSCARRERA td:nth-of-type(1):before {
+     content: "Total de creditos";
+  }
+  #copy #ctl00_mainCopy_CREDITOSCARRERA td:nth-of-type(2):before {
+     content: "Carga maxima de creditos";
+  }
+  #copy #ctl00_mainCopy_CREDITOSCARRERA td:nth-of-type(3):before {
+     content: "Carga media de creditos";
+  }
+  #copy #ctl00_mainCopy_CREDITOSCARRERA td:nth-of-type(4):before {
+     content: "Carga minima de creditos";
+  }
+  #copy #ctl00_mainCopy_CREDITOSCARRERA td:nth-of-type(5):before {
+     content: "Duracion en periodos escolares";
+  }
+  #copy #ctl00_mainCopy_CREDITOSCARRERA td:nth-of-type(6):before {
+     content: "Duracion maxima";
+  }
+
+  #copy #ctl00_mainCopy_alumno td:nth-of-type(1):before {
+     content: "Reprobadas de 1 o 2 periodos";
+  }
+#copy #ctl00_mainCopy_alumno td:nth-of-type(2):before {
+     content: "Creditos que has obtenido";
+  }
+#copy #ctl00_mainCopy_alumno td:nth-of-type(3):before {
+     content: "Creditos que te faltan obtener";
+  }
+#copy #ctl00_mainCopy_alumno td:nth-of-type(4):before {
+     content: "Periodos escolares cursados";
+  }
+#copy #ctl00_mainCopy_alumno td:nth-of-type(5):before {
+     content: "Periodos escolares disponibles";
+  }
+
+  #copy #ctl00_mainCopy_GV_Horario td:nth-of-type(1):before {
+     content: "Grupo: ";
+  }
+  #copy #ctl00_mainCopy_GV_Horario td:nth-of-type(2):before {
+     content: "Materia:";
+  }
+  #copy #ctl00_mainCopy_GV_Horario td:nth-of-type(3):before {
+     content: "Profesor:   ";
+  }
+  #copy #ctl00_mainCopy_GV_Horario td:nth-of-type(4):before {
+     content: "Edificio:   ";
+  }
+  #copy #ctl00_mainCopy_GV_Horario td:nth-of-type(5):before {
+     content: "Salon:";
+  }
+  #copy #ctl00_mainCopy_GV_Horario td:nth-of-type(6):before {
+     content: "Lunes:      ";
+  }
+  #copy #ctl00_mainCopy_GV_Horario td:nth-of-type(7):before {
+     content: "Martes:     ";
+  }
+  #copy #ctl00_mainCopy_GV_Horario td:nth-of-type(8):before {
+     content: "Miercoles:  ";
+  }
+  #copy #ctl00_mainCopy_GV_Horario td:nth-of-type(9):before {
+     content: "Jueves:     ";
+  }
+  #copy #ctl00_mainCopy_GV_Horario td:nth-of-type(10):before {
+     content: "Viernes:    ";
+  }
