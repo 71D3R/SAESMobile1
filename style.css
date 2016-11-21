@@ -161,7 +161,7 @@ body {
 #ctl00_mainCopy_alumno td {
   /* Behave  like a "row" */
 
-  font-size: 1.5vmax;
+  font-size: 3vmax;
   border: none;
   border-bottom: 1px solid #eee;
   position: relative;
@@ -173,7 +173,7 @@ body {
   position: absolute;
   /* Top/left values mimic padding */
   font-weight: bold;
-  font-size: 2vmax;
+  font-size: 3vmax;
   top: 6px;
   left: 6px;
   width: 45%;
@@ -222,7 +222,7 @@ body {
      content: "Materias Reprobadas";
   }
   #copy #ctl00_mainCopy_grvEstatus_alumno td:nth-of-type(3):before {
-     content: "Fecha de Inscripción";
+     content: "Fecha de Inscripcion";
   }
   #copy #ctl00_mainCopy_grvEstatus_alumno td:nth-of-type(4):before {
      content: "Fecha de Caducidad";
